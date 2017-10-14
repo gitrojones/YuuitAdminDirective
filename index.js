@@ -10,7 +10,7 @@ export default {
     }
     if (typeof value !== 'object') {
       console.log('Expression Required: Expression missing, see Documentation.')
-      // return
+      return
     }
 
     console.log(modifiers)
