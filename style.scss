@@ -1,0 +1,97 @@
+$trans-grey: rgba(43, 43, 43, .8);
+$white: #fff;
+$green: #37d33e;
+$yellow: #f7ef51;
+$red: #ba1010;
+
+%vertical {
+  height: 100%;
+  text-orientation: upright;
+  width: 25px;
+  writing-mode: vertical-lr;
+}
+
+.admin-container {
+  height: 100%;
+  position: relative;
+  width: auto;
+
+  &.top {
+    margin-top: 25px;
+  }
+
+  &.bottom {
+    margin-bottom: 25px;
+  }
+}
+
+.admin-bar {
+  background-color: $trans-grey;
+  color: $white;
+  display: flex;
+  height: 25px;
+  line-height: 25px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+
+  &.top {
+    top: -25px;
+  }
+
+  &.bottom {
+    top: calc(100% - 25px);
+  }
+
+  &.left {
+    @extend %vertical;
+    left: -25px;
+  }
+
+  &.right {
+    @extend %vertical;
+    left: 100%;
+  }
+}
+
+.admin-title {
+  flex: 2;
+}
+
+.admin-buttons {
+  display: flex;
+  flex: 1;
+  margin-left: auto;
+
+  .admin-button {
+    display: 'inline-block';
+    flex: 1;
+    height: 100%;
+  }
+}
+
+.admin-button {
+  &.create {
+    color: $green;
+
+    i {
+      //@extend Icon of choice, MDI Used in-line
+    }
+  }
+
+  &.update {
+    color: $yellow;
+
+    i {
+      //@extend Icon of choice, MDI Used in-line
+    }
+  }
+
+  &.destroy {
+    color: $red;
+
+    i {
+      //@extend Icon of choice, MDI Used in-line
+    }
+  }
+}
