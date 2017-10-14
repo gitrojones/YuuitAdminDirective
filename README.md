@@ -9,9 +9,9 @@ A WSIWYG Administration component designed to work generically with any HTML ele
 ### How it Works
 The administration directive wraps the HTMLNode element with an administration element that binds click events to create, update, and destroy buttons. From there, it is your responsibility to define an action to take on the event being fired.
 
-![topMultiTitle](https://github.com/gitrojones/YuuitAdminDirective/top.multi.title.png)
+![topMultiTitle](https://github.com/gitrojones/YuuitAdminDirective/src/blob/master/top.multi.title.png)
 
-![leftNoTitle](https://github.com/gitrojones/YuuitAdminDirective/left.no-title.png)
+![leftNoTitle](https://github.com/gitrojones/YuuitAdminDirective/src/blob/master/left.no-title.png)
 
 ### How to Use
 The administration directive requires an expression in order to function. For single components the directive works out of the box without any major modifications. For iterated content rendered using a v-for loop you must append the object index to the class_name of the HTMLNode.
