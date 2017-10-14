@@ -45,16 +45,16 @@ Missing keys are omitted from the spawned element.
 #### Argument
 The directive accepts the following arguments:
 
-	* :top – Renders the wrapper on the top of the element.
-	* TODO :left – Renders the wrapper on the left side of the element.
-	* TODO :right – Renders the wrapper on the right side of the element.
-	* :bottom – Renders the wrapper on the bottom of the element.
+	:top – Renders the wrapper on the top of the element.
+	_TODO_ :left – Renders the wrapper on the left side of the element.
+    _TODO_ :right – Renders the wrapper on the right side of the element.
+	:bottom – Renders the wrapper on the bottom of the element.
 
 #### Modifiers
 The directive accepts the following modifiers:
 
-	* TODO .noTitle – Removes the title from the bar.
-	* TODO .noBar – Transparent bar.
+	_TODO_ .noTitle – Removes the title from the bar.
+	_TODO_ .noBar – Transparent bar.
 
 ### Additonal Information
 The following directive was designed to be generic. In order to be useful in many different applications. My Administration Editor component is designed to complement this directive in order to build simple and robust administration panels for server-side data.
